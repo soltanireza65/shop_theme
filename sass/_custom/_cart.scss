@@ -1,0 +1,82 @@
+.woocommerce-cart-form {
+  background-color: #fff;
+}
+
+.checkout-button {
+  background-color: #c82333 !important;
+}
+
+.actions .coupon .input-text {
+  width: 250px !important;
+  border: none;
+  background-color: #ececec;
+}
+
+.woocommerce-cart-form__contents {
+  border: none !important;
+}
+
+.woocommerce-cart-form__contents * {
+  border: none !important;
+}
+
+.cart_totals * {
+  border: none !important;
+}
+
+.cart_totals {
+  text-align: right;
+  padding: 30px;
+  border: none;
+}
+
+.wc-proceed-to-checkout {
+  width: 200px;
+  margin-right: auto;
+  margin-left: 30px;
+}
+
+.woocommerce-cart-form__contents {
+  thead {
+    th.product-name {
+      text-align: right !important;
+    }
+  }
+
+  tbody {
+    td.product-name {
+      text-align: right !important;
+    }
+
+    td.product-quantity {
+      input.qty {
+
+        text-align: left !important;
+      }
+    }
+  }
+
+  .variation {
+    display: none !important;
+  }
+}
+
+.woocommerce-info, .woocommerce-noreviews, p.no-comments {
+  background-color: #fff !important;
+}
+
+#add_payment_method table.cart img, .woocommerce-cart table.cart img, .woocommerce-checkout table.cart img {
+  width: 75px;
+  box-shadow: none;
+}
+
+.cart-collaterals {
+  background-color: #f1f1f1;
+  .cart_totals{
+    width: 100% !important;
+    float: right !important;
+    table{
+      width: 50%;
+    }
+  }
+}

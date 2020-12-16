@@ -1,0 +1,9 @@
+@media screen and (min-width: 48em) {
+  .site-header-cart:hover .widget_shopping_cart, .site-header-cart.focus .widget_shopping_cart {
+    left: 0;
+    display: block;
+    width: 200px;
+    background-color: white;
+
+  }
+}

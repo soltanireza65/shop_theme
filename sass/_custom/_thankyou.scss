@@ -1,0 +1,25 @@
+.woocommerce-order {
+  p {
+    text-align: right !important;
+  }
+}
+
+.woocommerce-thankyou-order-details {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  background-color: #F4F4F8 !important;
+
+  li {
+    border: none !important;
+    display: flex;
+    color: #666666;
+    align-items: center;
+    margin-bottom: 10px;
+    //font-size: 1rem;
+    strong{
+      margin-right: 10px;
+    }
+  }
+}
+

@@ -1,0 +1,128 @@
+// .megamenu {
+//   &:hover > .dropdown-menu {
+//     display: grid;
+//     grid-template-columns: auto auto auto;
+//   }
+//   position: static;
+//   .dropdown-menu {
+//     width: 100%;
+//     max-width: 800px;
+//     text-align: right;
+//     right: 0;
+//     .megamenu_column {
+//       //   width: 280px;
+//       //   display: block;
+//       //   float: left;
+//       //   text-align: right;
+//       ul {
+//         // margin: 0%;
+//         // padding: 0%;
+//       }
+//       a {
+//       }
+//     }
+//   }
+// }
+
+// .megamenu {
+//   &:hover > .dropdown-menu {
+//     // display: block;
+//     visibility: visible;
+//   }
+//   position: static;
+//   .dropdown-menu {
+//     padding: 10px 30px;
+//     display: flex;
+//     visibility: hidden;
+//     width: 100%;
+//     max-width: 900px;
+//     right: 0;
+// .megamenu_column {
+//   width: 280px;
+//   box-sizing: border-box;
+//   display: block;
+//   float: right;
+//   text-align: right;
+// }
+//   }
+// }
+
+// .menu-mega-menu-container {
+//   .menu-item a {
+//     box-sizing: border-box;
+//     padding: 10px 0px;
+//     margin: 0 10px;
+//   }
+// }
+
+//
+
+// .megamenu > .sub-menu {
+//   opacity: 0;
+//   visibility: hidden;
+//   transition: all 0.25s ease-in-out;
+// }
+// .megamenu > .sub-menu > .menu-item > a {
+//   // background-color: #efefef;
+//   padding: 10px 20px;
+//   // margin-bottom: 0px;
+//   // border-radius: 10px;
+//   // border-bottom: 2px solid black;
+// }
+
+// .megamenu {
+//   position: static;
+
+//   & > .sub-menu {
+//     position: absolute;
+//     left: 0%;
+//     right: 0%;
+//     margin-left: auto;
+//     margin-right: auto;
+//     padding: 30px;
+//     border-radius: 20px;
+//     margin: auto;
+//     z-index: 22;
+//     display: flex;
+//     align-items: stretch;
+//     justify-content: space-between;
+//     text-align: right;
+//     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.15);
+//     max-width: 70vw;
+//     background-color: #fff;
+//     .sub-menu {
+//       margin-right: 10px;
+//     }
+//     & > a {
+//       padding: 30px;
+//       // border-radius: 20px;
+//       border-bottom: 2px solid black;
+//     }
+//   }
+//   &:hover {
+//     .sub-menu {
+//       opacity: 1;
+//       visibility: visible;
+//     }
+//   }
+// }
+
+// @media screen and (max-width: 480px) {
+//   body {
+//     background-color: lightgreen;
+//   }
+// }
+
+// margin-right: 0px;
+//     padding-top: 30px;
+//     top: 0px;
+//     margin-top: 0px;
+//     margin-left: 0px;
+//     margin-bottom: 0px;
+//     bottom: 0px;
+//     display: flex;
+//     flex-direction: column;
+
+.mega-menu-wrap {
+  width: 100% !important;
+}

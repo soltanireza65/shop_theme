@@ -1,0 +1,279 @@
+.bg-gray {
+  background: #dadada;
+}
+
+.grp-btn--left {
+  border-radius: 0 5px 5px 0;
+  background-color: #ec0101;
+  color: white;
+}
+
+.grp-btn--right {
+  border-radius: 5px 0 0 5px;
+  background-color: #cd0a0a;
+  color: white;
+}
+
+.main-carousel__item img {
+  border-radius: 10px;
+}
+
+#carouselExampleIndicators > ol > li.carousel_indicator {
+  width: 7px !important;
+  height: 7px !important;
+  border-radius: 50%;
+  -webkit-transition: all 0.9s;
+  transition: all 0.9s;
+}
+
+#carouselExampleIndicators > ol > li.carousel_indicator.active {
+  width: 30px !important;
+  height: 7px !important;
+  border-radius: 10% !important;
+}
+
+.card {
+  border-radius: 10px;
+  outline: none;
+}
+
+.radius {
+  border-radius: 10px;
+}
+
+.card-img,
+.card-transform {
+  border-radius: 10px;
+  -webkit-transition: all, 0.2s;
+  transition: all, 0.2s;
+  background-size: cover;
+}
+
+.card-img:hover,
+.card-transform:hover {
+  margin-top: -3px;
+  -webkit-box-shadow: 0 5px 7px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.3);
+}
+
+.card-h200 {
+  position: relative;
+}
+
+.card-h200_right {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.card-h200_left {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.app_card {
+  border: none;
+  overflow: hidden;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.product_img_bg {
+  height: 180px;
+  background-size: cover;
+}
+
+.product_card_overlay {
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  height: 190px;
+  background-color: rgba(255, 255, 255, 0.432);
+  opacity: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.app_card:hover .product_icons_wraper {
+  opacity: 1;
+}
+
+.app_card:hover .app_card_image {
+  opacity: 0.5;
+}
+
+.app_card_image {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  padding: 10px;
+}
+
+.product_icons_wraper {
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.product_icons_wraper a .fas:hover {
+  color: #bd2130;
+  font-size: 18px;
+}
+
+.product_icons_wraper a .fas {
+  font-size: 15px;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+
+.product_rating_stars .fa {
+  font-size: 10px;
+  padding: 0;
+}
+
+.product_icons {
+  background-color: white;
+  padding: 8px 10px 5px 10px;
+  border-radius: 10px;
+}
+
+.checked {
+  color: orange;
+}
+
+.card_shopping_icon {
+  font-size: 20px;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+
+.card_shopping_icon:hover {
+  color: #bd2130;
+  font-size: 22px;
+}
+
+*:focus,
+*:active {
+  outline: none !important;
+  border: none;
+  /* border-color: inherit !important; */
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.search-box:focus {
+  border: none;
+}
+
+@media (max-width: 1000px) {
+  .search-box {
+    /* width: 400px !important; */
+  }
+}
+
+.search-box2 {
+  width: 100% !important;
+}
+
+.left {
+  border-radius: 0 5px 5px 0;
+  background-color: white;
+}
+
+.middle {
+  border-radius: 0;
+  background-color: white;
+}
+
+.middle:focus {
+  outline: none;
+  border: none;
+}
+
+.right {
+  border-radius: 5px 0 0 5px;
+  background-color: white;
+}
+
+// .dropdown:hover > .dropdown-menu {
+//   display: block;
+// }
+
+.list-unstyled li {
+  margin-top: 10px;
+}
+
+.br-left {
+  border-radius: 0 5px 5px 0;
+}
+
+.br-right {
+  border-radius: 5px 0 0 5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 0.9rem;
+  //font-family: 'iransans';
+}
+
+body {
+  background: #f0f0f1;
+  /* overflow-x: hidden; */
+}
+
+a {
+  text-decoration: none;
+  color: #5f5f5f;
+}
+
+a:hover {
+  color: #383838;
+  text-decoration: none;
+}
+
+.bg-primary {
+  height: 300px;
+}
