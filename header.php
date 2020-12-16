@@ -66,6 +66,14 @@
             </div>
             <div class="d-flex position-relative">
                 <div class="d-flex align-items-center p-0 px-1 text-secondary">
+
+
+                    <?php
+                    if (function_exists('shop_theme_woocommerce_header_cart')) {
+                        shop_theme_woocommerce_header_cart();
+                    }
+                    ?>
+
                     <div class="user_links_dropdown mr-4 ">
                         <a class="dropbtn"><i class="fas fa-user circle_padding_white"></i></a>
                         <div class=" text-center overflow-hidden bg-white user_links_dropdown-content text-right border-0 radius app_auth_urls" aria-labelledby="dropdownMenuButton">

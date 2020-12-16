@@ -11740,4 +11740,50 @@ td {
 	width: 150px !important;
 }
 
+body {
+	overflow-x: hidden !important;
+}
+
+.search-field,
+.cate-dropdown {
+	border: none !important;
+	border-radius: 0 10px 10px 0;
+}
+
+.search-field {
+	border-radius: 0 !important;
+	width: 400px;
+}
+
+.site-branding {
+	align-self: center;
+}
+
+.input-group-append button {
+	border: none !important;
+	border-radius: 10px 0 0 10px;
+}
+
+.header_search_form_wraper {
+	align-self: center !important;
+	height: 30px;
+}
+
+.woocommerce-products-header .woocommerce-breadcrumb a {
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+@media only screen and (max-width: 900px) {
+	.search-field {
+		width: 200px;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.woocommerce-product-search .top_search_cat_select {
+		display: none;
+	}
+}
+
 /*# sourceMappingURL=style.css.map */
